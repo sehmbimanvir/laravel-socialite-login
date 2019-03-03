@@ -1,0 +1,57 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+// Custom CSS
+.btn {
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.btn-fb {
+  border-color: #3b5999;
+  color: #3b5999;
+  &:hover {
+    background-color: #3b5999;
+    border-color: #3b5999;
+  }
+}
+.btn-google {
+  border-color: #dd4b39;
+  color: #dd4b39;
+  &:hover {
+    border-color: #dd4b39;
+    background-color: #dd4b39;
+  }
+}
+
+.btn-twitter {
+  border-color: #55acee;
+  color: #55acee;
+  &:hover {
+    border-color: #55acee;
+    background-color: #55acee;
+  }
+}
+
+.btn-linkedin {
+  border-color: #0077B5;
+  color: #0077B5;
+  &:hover {
+    border-color: #0077B5;
+    background-color: #0077B5;
+  }
+}
