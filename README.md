@@ -15,7 +15,7 @@ composer install
 
 3. Set **APP_URL** to root url of project in **.env** file
 
-4. Generate Client Id, Client Secret for following websites:-
+4. Generate Client Id, Client Secret for :-
 
 * [**Facebook**](https://www.codexworld.com/create-facebook-app-id-app-secret/)
 * [**Google**](https://www.codexworld.com/login-with-google-api-using-php/)
